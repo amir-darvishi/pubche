@@ -1,11 +1,9 @@
 import './App.css';
-import '../node_modules/bootstrap/dist/css/bootstrap.rtl.min.css';
-
-
+import '../node_modules/bootstrap/dist/css/bootstrap.css';
 function App() {
   return (
-    <div>
-      <div className="">amir</div>
+    <div className="container-fluid">
+      
     </div>
   );
 }

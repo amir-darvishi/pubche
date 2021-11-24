@@ -1,38 +1,81 @@
-.App {
-  text-align: center;
+:root{
+  --baseColor:#00F218;
+  --grayColor:#DCD5D5;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+@font-face {
+  font-family: iran;
+  src: url(./fonts/IRANSansX-Regular.woff),url(./fonts/IRANSansX-Bold.woff);
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+body{
+  font-family: iran !important;
+  direction: rtl;
 }
+a{
+  text-decoration: none !important;
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+}
+.form-login-log{
+  width:350px;
+  
+}
+.border-gray{
+  border: 1px solid var(--grayColor) !important;
+}
+.border{
+  border:1px var(--grayColor);
+  color:var(--grayColor);
+  border-radius: 0px !important;
+}
+.btn-base{
+  background-color: var(--baseColor) !important;
+  color:white !important;
+}
+.w-200
+{
+  width: 200px;
+}
+.center-box
+{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+.btn-active
+{
+  background-color: var(--baseColor);
+  color: white !important;
+}
+.w-50
+{
+  width: 50%;
+}
+.mar-y-4
+{
+  margin-top: -5px;
+    margin-bottom: -5px;
+}
+.h-34
+{
+  height:34px;
+}
+.border-radius-0
+{
+  border-radius: 0px !important ;
+}
+.text-item-center
+{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+    justify-content: center;
+    align-items: center;
+}
+.color-gray
+{
+  color: var(--grayColor) !important;
+}
+.color-white
+{
   color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
